@@ -54,7 +54,7 @@ public class RestaurantServiceImpl {
 					break;
 				}
 			}
-			
+		//sort elements into descending order by using comparator	
 		Collections.sort(items, new ItemComparator());
 		
 		if(items.size()>0){
